@@ -1,0 +1,107 @@
+
+body{
+    background-color: rgb(240, 238, 238);
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.parent {
+    height: 500px;
+    width: 500px;
+    margin: auto;
+    margin: 100px auto;
+    border-radius: 10px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 120px;
+    background-color: white;
+    box-shadow: 30px 20px 15px rgba(0, 0, 0, 0.3);
+
+
+}
+
+.parent h2{
+padding: 20px;
+color:blueviolet;
+text-align: left;
+}
+
+form{
+    width: 100%;
+}
+.inputs {
+    display: flex;
+    padding-top: 10px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+input {
+    display: block;
+    width: 100px;
+    height: 30px;
+    border-radius: 6px;
+    border:1px solid rgb(201, 179, 179);
+    margin-top: 5px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+
+label {
+    font-size: 12px;
+    color: rgb(83, 80, 80);
+}
+
+
+
+.submit {  
+
+    display: flex; 
+    align-items: center; 
+    padding: 10px 5px;
+    margin-top: 30px;
+}
+
+hr {
+   
+    flex-grow: 1; 
+    border: none; 
+    height: 2px; 
+    background-color: rgb(119, 111, 111); 
+    margin: 0; 
+}
+
+.sub {
+    width: 50px; 
+    height: 50px;
+    background-color:blueviolet;
+    border-radius: 50%; 
+    margin-left: 5px;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+}
+
+.sub input {
+    display: none; 
+}
+
+.sub::before {
+    content: '✓'; 
+    color: white; 
+    font-size: 20px; 
+}
+
+.age {
+    margin-left: 40px;
+}
+
+.age div {
+    font-size:45px;
+    font-weight: bold;
+    color: blueviolet;
+}
+
+
+
